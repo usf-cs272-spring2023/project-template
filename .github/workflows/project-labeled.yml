@@ -9,4 +9,5 @@ jobs:
   main:
     # first name used on summary sidebar (should be general and short)
     name: 'Run'
-    uses: usf-cs272-fall2022/action-workflows/.github/workflows/project-labeled.yml@main
+    uses: usf-cs272-spring2023/action-workflows/.github/workflows/project-labeled.yml@main
+    secrets: inherit

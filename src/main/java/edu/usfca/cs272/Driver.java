@@ -10,7 +10,7 @@ import java.util.Arrays;
  *
  * @author TODO Add Name Here
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2022
+ * @version Spring 2023
  */
 public class Driver {
 	/**
@@ -34,11 +34,11 @@ public class Driver {
 	}
 
 	/*
-	 * Generally, "Driver" classes are responsible for setting up and calling
-	 * other classes, usually from a main() method that parses command-line
-	 * parameters. Generalized reusable code are usually placed outside of the
-	 * Driver class. They are sometimes called "Main" classes too, since they
-	 * usually include the main() method.
+	 * Generally, "Driver" classes are responsible for setting up and calling other
+	 * classes, usually from a main() method that parses command-line parameters.
+	 * Generalized reusable code are usually placed outside of the Driver class.
+	 * They are sometimes called "Main" classes too, since they usually include the
+	 * main() method.
 	 *
 	 * If the driver were only responsible for a single class, we use that class
 	 * name. For example, "TaxiDriver" is what we would name a driver class that
