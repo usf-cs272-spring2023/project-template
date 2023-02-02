@@ -14,7 +14,7 @@ on:
 jobs:
   main:
     name: 'Run'
-    uses: usf-cs272-spring2023/action-workflows/.github/workflows/project-release.yml@main
+    uses: usf-cs272-spring2023/cs272-workflows/.github/workflows/project-release.yml@main
     secrets: inherit
     with:
       release_tag: ${{ github.event.inputs.release_tag }}
